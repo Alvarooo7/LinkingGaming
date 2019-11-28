@@ -1,0 +1,72 @@
+header {
+    background-color: var(--main-color);
+}
+
+.image-logo {
+    width: 40px;
+}
+
+.tipe-form {
+    height: 100%;
+}
+
+.form-style {
+    outline: none;
+    border: 0;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding: .3em 0 .3em .9em
+}
+
+.btn-form {
+    border: 0;
+    width: 40px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    padding: .3em .5em .3em 0;
+    background-color: #ffffff;
+    color: #a5a5a5;
+    margin: 0;
+    cursor: pointer;
+}
+
+.img-perfil {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px
+}
+
+.links {
+    margin-right: 15px;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-radio {
+    background-color: var(--main-color);
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-radio:hover {
+    background-color: #ffffff;
+    color: #505050
+}
+
+
+@media screen and (max-width:500px) {
+    .links {
+        margin-bottom: 10px;
+    }
+
+}

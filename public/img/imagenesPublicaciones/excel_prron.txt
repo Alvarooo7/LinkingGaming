@@ -1,0 +1,4 @@
+<%
+	response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; charset=UTF-8");
+	response.setHeader("Content-Disposition","attachment; filename=resporte.xls");
+%>
